@@ -10,7 +10,7 @@
 
         this._defaults      = defaults;
         this._pluginName    = pluginName;
-        this.element        = element;
+        this.$el            = element;
 
         // Combine defaults and options to create a new object
         this.options        = $.extend({}, defaults, options);
