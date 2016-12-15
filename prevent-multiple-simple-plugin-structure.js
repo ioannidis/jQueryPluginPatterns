@@ -13,7 +13,7 @@
         this.$el            = element;
 
         // Combine defaults and options to create a new object
-        this.options        = $.extend({}, defaults, options);
+        this.options        = $.extend({}, this._defaults, options);
 
         // Plugin initialization
         this._init();
